@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   details: {
     color: "#5989B1",
-    fontFamily: "Indie Flower",
+    fontFamily: 'Sriracha',
     padding: 30,
     display: "flex",
     flexDirection: "column",
