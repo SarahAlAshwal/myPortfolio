@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 700,
     width: 1000,
-   margin: 30,
+   margin: 20,
   },
 }));
 

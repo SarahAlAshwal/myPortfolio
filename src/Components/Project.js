@@ -15,6 +15,7 @@ const useStyles = makeStyles({
   },
   media: {
     height: 400,
+    width: 550,
   },
   video: {
     width: 550,
