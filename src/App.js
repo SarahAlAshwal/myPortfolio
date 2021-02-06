@@ -15,10 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home></Home>
-          </Route>
-          <Route path="/about">
             <About></About>
-          </Route>
           <Route path="/projects">
             <Projects></Projects>
           </Route>
