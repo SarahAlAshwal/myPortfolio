@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 80,
    display: 'flex',
    flexDirection: 'column',
-   alignItems: 'center'
+   alignItems: 'center',
+   padding: 95,
   },
   media: {
     height: 700,

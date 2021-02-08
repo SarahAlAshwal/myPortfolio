@@ -6,6 +6,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -13,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 80,
     display: "flex",
-    padding: 15,
+    padding: 65,
     flexDirection: "row",
     flexWrap: 'wrap',
     justifyContent: "space-between",
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     flex: "1 0 auto",
   },
   cover: {
-    width: 600,
+    width: '100%',
     height: 400,
     margin: 40
   },
@@ -78,7 +79,9 @@ export default function MediaControlCard() {
   return (
     <div>
       <Card className={classes.root}>
-        <div className={classes.details}>
+      <Grid container spacing={3}>
+      <Grid item xs={6}>
+      <div className={classes.details}>
           <CardContent className={classes.content}>
             <Typography className={classes.name} component="h1" variant="h2">
               Hello! I am Sarah
@@ -94,11 +97,15 @@ export default function MediaControlCard() {
             Contact
           </Button>
         </div>
-        <CardMedia
+      </Grid>
+      <Grid item xs={6}>
+      <CardMedia
           className={classes.cover}
           image={process.env.PUBLIC_URL + "/apps.jpg"}
           title="team work"
         />
+      </Grid>
+      </Grid>
       </Card>
     </div>
   );

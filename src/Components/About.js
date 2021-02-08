@@ -161,6 +161,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="team work"
         height="500"
+        width='100%'
         image={process.env.PUBLIC_URL + "/programmer.jpg"}
         title="team work"
       />

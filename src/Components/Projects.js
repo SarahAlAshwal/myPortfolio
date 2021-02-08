@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     cursor: 'pointer',
     margin: 10,
+    padding: 95,
   },
   gridList: {
     flexWrap: 'nowrap',
