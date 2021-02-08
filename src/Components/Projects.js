@@ -8,6 +8,7 @@ import data from '../prjectsData';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    marginTop: 80,
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',

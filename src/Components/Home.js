@@ -11,15 +11,18 @@ import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    marginTop: 80,
     display: "flex",
     padding: 15,
     flexDirection: "row",
+    flexWrap: 'wrap',
     justifyContent: "space-between",
   },
   contact: {
     display: "flex",
     padding: 15,
     flexDirection: "row",
+    flexWrap: 'wrap',
     justifyContent: "center",
   },
   name: {

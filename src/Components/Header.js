@@ -47,6 +47,7 @@ export default function ButtonAppBar() {
     history.push("/");
   }
 
+
   return (
     <div className={classes.root}>
       <AppBar position='fixed'>
@@ -63,6 +64,7 @@ export default function ButtonAppBar() {
             </Typography>
             </div>
           <div>
+            
           <Link to="/"> <Button color="#07345D">Home</Button></Link>
           <Link to="/about"><Button color="#07345D">About</Button></Link>
           <Link to="/projects"><Button color="#07345D">Projects</Button></Link>

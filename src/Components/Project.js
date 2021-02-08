@@ -12,13 +12,15 @@ const useStyles = makeStyles({
     width: "420",
     height: "315",
     margin: 30,
+    cursor:'auto',
   },
   media: {
     height: 400,
-    width: 550,
+    width: "100%",
+    cursor:'auto',
   },
   video: {
-    width: 550,
+    width: "100%",
     height: 400,
     marginLeft: 30
   },

@@ -6,6 +6,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    marginTop: 80,
    display: 'flex',
    flexDirection: 'column',
    alignItems: 'center'
