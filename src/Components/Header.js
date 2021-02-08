@@ -49,7 +49,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position='fixed'>
         <Toolbar className={classes.main}>
         <div className={classes.main}>
             <img className={classes.logo} src={process.env.PUBLIC_URL + "/s.jpg"} alt='logo' onClick={handleClick}/>
