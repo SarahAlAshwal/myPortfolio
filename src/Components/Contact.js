@@ -8,7 +8,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
    display: 'flex',
    flexDirection: 'column',
-   alignItems: 'center'
+   alignItems: 'center',
+   padding: 95,
   },
   media: {
     height: 700,

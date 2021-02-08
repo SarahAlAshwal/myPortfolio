@@ -12,7 +12,7 @@ import { useHistory } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-    padding: 15,
+    padding: 65,
     flexDirection: "row",
     justifyContent: "space-between",
   },
